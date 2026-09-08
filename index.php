@@ -1,0 +1,657 @@
+<?php
+// WARM WEAVE HILL - Alpine Knitwear & Artisanal Merino Wool Socks
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARM WEAVE HILL | Alpine Merino Wool Socks &amp; Thermal Knitwear</title>
+    <meta name="description" content="Discover WARM WEAVE HILL, creators of mastercrafted alpine Merino wool socks, cashmere lounge knits, hand-linked seamless toes, and botanical dyed thermal footwear.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0LY0HY7L01');
+    </script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="nav-inner">
+            <a href="index.php" class="brand-logo">
+                <div class="brand-crest-mark">WARM WEAVE <span>&bull;</span> HILL</div>
+                <div class="brand-subtext">ALPINE THERMAL KNITWEAR</div>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.php" class="nav-link active">Home</a></li>
+                    <li><a href="#philosophy" class="nav-link">Hygge Craft</a></li>
+                    <li><a href="#collections" class="nav-link">Sock Vault</a></li>
+                    <li><a href="#selector" class="nav-link">Warmth Studio</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="blog.html" class="nav-link">Alpine Journal</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#selector" class="btn btn-primary">Find Your Warmth</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- 1. Hero Section -->
+        <section class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <img src="images/warm-hero-cozy-merino-socks.jpg" alt="Cozy artisanal Merino wool socks by the alpine fireplace" class="hero-bg-img">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-tag">Ethically Sourced &bull; 18.5 Micron Merino &bull; Seamless Toe</div>
+                    <h1 class="hero-title">Cloudlike Warmth. <span>Alpine</span> Thermal Mastery.</h1>
+                    <p class="hero-desc">
+                        Welcome to Warm Weave Hill, where high-altitude mountain heritage meets the fine art of seamless knitwear. Hand-spun from ethical ultra-fine Merino wool, cashmere, and organic alpaca fibers, our socks provide breathable thermoregulation for rugged alpine trails and cozy fireside retreats alike.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#collections" class="btn btn-primary">Explore The Knitwear</a>
+                        <a href="#selector" class="btn btn-outline-white">Interactive Warmth Studio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Philosophy & Nordic Hygge Comfort -->
+        <section class="section-padding bg-white" id="philosophy">
+            <div class="container">
+                <div class="showcase-split">
+                    <div class="showcase-img-wrap">
+                        <img src="images/warm-knitted-wool-socks-fireplace.jpg" alt="Handcrafted wool socks warming near glowing hearth fire">
+                        <div class="showcase-badge">Alpine Hearth Tradition &bull; Est. 1994</div>
+                    </div>
+                    <div class="showcase-content">
+                        <span class="section-tagline">The Sanctuary of Warmth</span>
+                        <h2 class="section-title">Reclaiming Everyday Comfort as a Fine Art</h2>
+                        <p>
+                            In a hurried modern world governed by synthetic polyester and mass-produced fast fashion, our feet bear the brunt of everyday fatigue. At Warm Weave Hill, we believe that the simple act of pulling on a pair of masterfully knitted, cloud-soft wool socks is a transformative tactile ritual—an anchor of warmth, grounding, and peace.
+                        </p>
+                        <p>
+                            Nestled in the foothills of the high alpine ranges, our family-owned mill combines ancient hand-spinning lore with 200-needle circular knitting machinery. We eliminate the irritating, bulky toe ridges of commercial hosiery by hand-linking every toe seam loop by loop, creating an entirely frictionless sanctuary for your feet.
+                        </p>
+                        <ul class="specs-list">
+                            <li><span class="bullet">&bull;</span> <strong>18.5-Micron Extra-Fine Merino Wool:</strong> Silky soft against sensitive skin with zero itch or prickly irritation.</li>
+                            <li><span class="bullet">&bull;</span> <strong>True Hand-Linked Seamless Toes:</strong> Infinite step comfort with zero blisters or pressure hotspots.</li>
+                            <li><span class="bullet">&bull;</span> <strong>Engineered Dynamic Arch Support:</strong> Ribbed elasticated band that prevents sock slippage inside heavy winter boots.</li>
+                        </ul>
+                        <a href="about.html" class="btn btn-outline">Read Our Mountain Mill Story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Quad-Tier Thermal Knitting Pillars -->
+        <section class="section-padding bg-oatmeal-warm" id="craftsmanship">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Knitting Engineering</span>
+                    <h2 class="section-title">Four Pillars of Alpine Sock Mastery</h2>
+                    <p class="section-desc">Every stitch is calculated for moisture vapor evacuation, impact cushioning, and multi-year durability.</p>
+                </div>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#9729;</div>
+                        <h3 class="pillar-title">Natural Thermoregulation</h3>
+                        <p class="pillar-desc">Merino wool fibers feature microscopic air pockets that trap body heat in freezing sub-zero weather while breathing effortlessly in mild cabin climates.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#9878;</div>
+                        <h3 class="pillar-title">Vapor-Phase Wicking</h3>
+                        <p class="pillar-desc">Wool can absorb up to 35% of its dry weight in moisture vapor before feeling damp, preventing foot clamminess and neutralizing odors naturally.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#10047;</div>
+                        <h3 class="pillar-title">Botanical Dye Baths</h3>
+                        <p class="pillar-desc">Colored exclusively with sustainable madder root, elderberry, walnut husks, and oak gall extracts, ensuring toxin-free purity against bare skin.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#9881;</div>
+                        <h3 class="pillar-title">High-Density Terry Cushion</h3>
+                        <p class="pillar-desc">Reinforced high-density looped terry padding throughout the heel and footbed absorbs walking shock and resists premature wear over thousands of miles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Signature Collections Grid -->
+        <section class="section-padding bg-white" id="collections">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Curated Warmth</span>
+                    <h2 class="section-title">The Permanent Sock Collection</h2>
+                    <p class="section-desc">Engineered for extreme sub-zero mountain traverses, restorative cabin reading, and everyday dress comfort.</p>
+                </div>
+                
+                <div class="collection-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-media">
+                            <img src="images/warm-hiking-merino-boots-trail.jpg" alt="Summit Expedition Heavy Merino Wool Trail Socks">
+                            <span class="product-tag">Alpine Trail</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-meta">80% Merino &bull; 15% Nylon &bull; 5% Lycra</span>
+                            <h3 class="product-title">The Summit Expedition Boot Sock</h3>
+                            <p class="product-desc">Our flagship heavy-cushion crew sock. Features full-length terry loops, reinforced heel-and-toe ballistic armor, and vented instep channels for demanding backcountry ascents.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">$38</span>
+                                <a href="#selector" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Select Weight</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-media">
+                            <img src="images/warm-alpaca-cashmere-lounge-socks.jpg" alt="Highland Cashmere and Royal Alpaca Lounge Bed Socks">
+                            <span class="product-tag">Ultra-Luxe</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-meta">50% Royal Alpaca &bull; 40% Cashmere &bull; 10% Silk</span>
+                            <h3 class="product-title">The Highland Fireside Bed Sock</h3>
+                            <p class="product-desc">An indulgent, zero-compression cloud of warmth. Spun from un-dyed Peruvian royal alpaca and Mongolian cashmere for tranquil sleep and fireside reading.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">$54</span>
+                                <a href="#selector" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Select Weight</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-media">
+                            <img src="images/warm-nordic-fair-isle-pattern-socks.jpg" alt="Nordic Heritage Fair Isle Jacquard Wool Crew Socks">
+                            <span class="product-tag">Heritage Knit</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-meta">75% Merino &bull; Botanical Walnut &amp; Madder Dye</span>
+                            <h3 class="product-title">The Nordic Timberline Jacquard</h3>
+                            <p class="product-desc">Classic Scandinavian geometric patterns knitted with multi-colored natural vegetable-dyed wool yarns. Medium-weight cushioning for everyday winter footwear.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">$42</span>
+                                <a href="#selector" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Select Weight</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Interactive Warmth & Cushioning Selector -->
+        <section class="section-padding bg-oatmeal-warm" id="selector">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Custom Thermal Calibration</span>
+                    <h2 class="section-title">The Warmth &amp; Cushioning Studio</h2>
+                    <p class="section-desc">Tailor your ideal fiber blend, footbed cushioning density, and cuff height to find your perfect sock companion.</p>
+                </div>
+                
+                <div class="selector-wrapper">
+                    <div class="selector-grid">
+                        <div class="selector-preview-box">
+                            <img id="selector-preview-image" src="images/warm-folded-cable-knit-sock-stack.jpg" alt="Artisanal Wool Sock Stack Preview">
+                        </div>
+                        
+                        <div class="selector-specs-panel">
+                            <div class="selector-group">
+                                <label>1. Select Natural Fiber Blend</label>
+                                <div class="selector-options">
+                                    <button type="button" class="selector-btn active" data-selector-fiber="18.5µm Australian Merino Wool" data-img-src="images/warm-folded-cable-knit-sock-stack.jpg">18.5µm Alpine Merino</button>
+                                    <button type="button" class="selector-btn" data-selector-fiber="Royal Alpaca & Cashmere Blend" data-img-src="images/warm-alpaca-cashmere-lounge-socks.jpg">Royal Alpaca &amp; Cashmere</button>
+                                    <button type="button" class="selector-btn" data-selector-fiber="Organic Bamboo & Merino Hybrid" data-img-src="images/warm-thermal-compression-wool-socks.jpg">Bamboo &amp; Merino Hybrid</button>
+                                </div>
+                            </div>
+
+                            <div class="selector-group">
+                                <label>2. Select Footbed Cushioning Density</label>
+                                <div class="selector-options">
+                                    <button type="button" class="selector-btn active" data-selector-cushion="Ultra-Plush Heavy Cushion">Ultra-Plush Heavy (Sub-Zero)</button>
+                                    <button type="button" class="selector-btn" data-selector-cushion="Medium Terry Loop Cushion">Medium Loop (All-Day Trail)</button>
+                                    <button type="button" class="selector-btn" data-selector-cushion="Zero-Bulk Featherweight">Featherweight (City Dress)</button>
+                                </div>
+                            </div>
+
+                            <div class="selector-group">
+                                <label>3. Select Cuff Height Profile</label>
+                                <div class="selector-options">
+                                    <button type="button" class="selector-btn active" data-selector-height="Classic Boot Crew Height">Classic Boot Crew</button>
+                                    <button type="button" class="selector-btn" data-selector-height="Over-the-Calf Ski Mountaineer">Over-the-Calf Mountaineer</button>
+                                    <button type="button" class="selector-btn" data-selector-height="Ankle Lounger Quarter Height">Ankle Lounger</button>
+                                </div>
+                            </div>
+
+                            <div class="selector-summary">
+                                <div><strong>Selected Specification:</strong> <span id="summary-height">Classic Boot Crew Height</span> in <span id="summary-fiber">18.5µm Australian Merino Wool</span> with <span id="summary-cushion">Ultra-Plush Heavy Cushion</span>.</div>
+                                <div style="margin-top: 0.5rem; font-size: 1.25rem; font-family: var(--font-serif); font-weight: 700; color: var(--color-pine-900);">
+                                    Thermal Rating: <span id="summary-rating" class="text-terracotta">TOG 3.4 (Extreme Sub-Zero Thermal)</span>
+                                </div>
+                            </div>
+
+                            <a href="contact.html" class="btn btn-primary" style="align-self: flex-start;">Inquire &amp; Order Batch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Wool Microclimate & Moisture-Wicking Science -->
+        <section class="section-padding bg-white" id="science">
+            <div class="container">
+                <div class="showcase-split">
+                    <div class="showcase-content">
+                        <span class="section-tagline">Biological Fiber Physics</span>
+                        <h2 class="section-title">The Natural Microclimate on Your Feet</h2>
+                        <p>
+                            Human feet possess over 250,000 sweat glands, capable of releasing nearly half a pint of moisture vapor daily during active mountain hiking or vigorous physical work. When trapped in non-porous synthetic petroleum socks (such as polyester or acrylic), this moisture condenses into liquid water against the skin, rapidly conducting body heat away and creating the painful precursor to blisters and frostnip.
+                        </p>
+                        <p>
+                            Merino wool operates via a complex biological thermodynamic mechanism known as the <em>heat of sorption</em>. The interior cortex of the wool fiber is hygroscopic (attracting moisture vapor), while the exterior cuticle is hydrophobic (repelling liquid droplets). As wool fibers absorb internal sweat vapor, chemical bonds release exothermic heat energy, actively keeping your feet dry, warm, and blister-free in temperatures ranging from -30&deg;C to +20&deg;C.
+                        </p>
+                        <div style="background: var(--color-oatmeal-warm); padding: 1.5rem; border-left: 3px solid var(--color-terracotta); margin: 1.5rem 0; border-radius: var(--radius-xs);">
+                            <h4 style="font-size: 1.1rem; margin-bottom: 0.35rem;">Natural Keratin Antimicrobial Shield</h4>
+                            <p style="font-size: 0.92rem; margin: 0; color: var(--color-wool-charcoal);">The natural keratin proteins in raw Merino wool break down odor-causing bacteria molecules naturally, allowing our socks to be worn on multi-day backcountry treks without developing odor.</p>
+                        </div>
+                    </div>
+                    <div class="showcase-img-wrap">
+                        <img src="images/warm-organic-merino-sheep-pasture.jpg" alt="Organic Merino sheep grazing in pristine mountain pastures">
+                        <div class="showcase-badge">Pure High-Elevation Merino Wool</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Hand-Linked Seamless Toe Workshop -->
+        <section class="section-padding bg-oatmeal-warm">
+            <div class="container">
+                <div class="showcase-split" style="direction: rtl;">
+                    <div class="showcase-content" style="direction: ltr;">
+                        <span class="section-tagline">Artisanal Hosiery Technique</span>
+                        <h2 class="section-title">The Vanishing Art of the Hand-Linked Toe</h2>
+                        <p>
+                            If you turn an ordinary commercial sock inside out, you will find a thick, rigid ridged seam running straight across the tops of the toes. This ridge is created by high-speed industrial overlock machines that rapidly pinch and sew excess fabric together. When pressed against the toe box of stiff hiking boots or leather dress shoes, that seam causes friction, redness, and blisters.
+                        </p>
+                        <p>
+                            At Warm Weave Hill, our artisans practice traditional <strong>hand linking</strong> (<em>Rosso point-to-point remettage</em>). Using a circular dial linking machine, every single knitted loop of the upper foot is individually aligned and woven stitch-by-stitch to the opposing sole loop with a single unbroken yarn strand. The result is a completely flat, microscopic seam that cannot be felt by the human foot.
+                        </p>
+                        <ul class="specs-list">
+                            <li><span class="bullet">&bull;</span> Zero bulk, zero friction ridges, and zero pressure points over sensitive toe joints.</li>
+                            <li><span class="bullet">&bull;</span> 100% loop-to-loop structural continuity that will never blow out under downhill trail impact.</li>
+                            <li><span class="bullet">&bull;</span> Inspected under lighted magnification before leaving the linking workbench.</li>
+                        </ul>
+                    </div>
+                    <div class="showcase-img-wrap" style="direction: ltr;">
+                        <img src="images/warm-seamless-toe-knitting-detail.jpg" alt="Artisan hand linking seamless toe on circular linking dial">
+                        <div class="showcase-badge">Zero Friction &bull; True Seamless</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Plant-Based Botanical Dye Matrix -->
+        <section class="section-padding bg-white">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Earthy Mineral &amp; Botanical Color</span>
+                    <h2 class="section-title">Tinctures Born From Alpine Earth</h2>
+                    <p class="section-desc">We reject harsh petrochemical azo dyes and heavy-metal fixatives, coloring our wool yarns with time-honored organic botanical baths.</p>
+                </div>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#127810;</div>
+                        <h3 class="pillar-title">Wild Madder Root</h3>
+                        <p class="pillar-desc">Simmered roots of <em>Rubia tinctorum</em> produce our signature warm terracotta and burnt alpine cinnamon hues, rich in natural lightfast pigments.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#127795;</div>
+                        <h3 class="pillar-title">Green Walnut Husks</h3>
+                        <p class="pillar-desc">Harvested in late autumn, fermented walnut shells yield deep, earthy amber and chestnut browns that bind permanently with wool protein fibers.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-icon">&#127807;</div>
+                        <h3 class="pillar-title">Mountain Oak Galls</h3>
+                        <p class="pillar-desc">Naturally tannin-rich oak gall tinctures combined with natural iron mordants create our soothing alpine slate, pine charcoal, and mist grays.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. 5-Stage Alpine Knitting Mill Process -->
+        <section class="section-padding bg-oatmeal-warm">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Mill Workflow</span>
+                    <h2 class="section-title">From Mountain Fleece to Hearth Comfort</h2>
+                    <p class="section-desc">Follow the methodical five-step journey required to transform raw shorn fleece into lifetime heirloom socks.</p>
+                </div>
+
+                <div class="timeline-track">
+                    <div class="timeline-step">
+                        <div class="timeline-step-num">01</div>
+                        <div class="timeline-step-content">
+                            <h3 class="timeline-step-title">Ethical Shearing &amp; Micron Sorting</h3>
+                            <p>Raw fleeces are sourced exclusively from non-mulesed sheep farms, hand-graded under sunlight, and sorted to separate ultra-fine 18.5µm fibers from coarser wools.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-step-num">02</div>
+                        <div class="timeline-step-content">
+                            <h3 class="timeline-step-title">Gentle Spring-Water Scouring</h3>
+                            <p>Wool is gently washed in pure mountain runoff water with natural plant soaps to extract dust and excess lanolin without damaging fiber cuticle scales.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-step-num">03</div>
+                        <div class="timeline-step-content">
+                            <h3 class="timeline-step-title">Worsted Ring Spinning &amp; Botanical Dyeing</h3>
+                            <p>Fibers are parallel-carded, spun into strong 2-ply worsted yarns, and steeped in slow botanical dye kettles until saturated with rich earthy color.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-step-num">04</div>
+                        <div class="timeline-step-content">
+                            <h3 class="timeline-step-title">200-Needle Circular Knitting &amp; Hand Linking</h3>
+                            <p>Socks are knitted on precision Italian cylinders with targeted terry cushion zones, followed by individual loop-by-loop hand linking of the toe closure.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-step-num">05</div>
+                        <div class="timeline-step-content">
+                            <h3 class="timeline-step-title">Wooden Board Blocking &amp; Steam Curing</h3>
+                            <p>Every pair is shaped on hand-carved birchwood blocking forms and gently steam-cured to lock in permanent shape retention and shrink resistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Testimonials & Trail Dispatches -->
+        <section class="section-padding bg-white">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Voices from the Trail &amp; Hearth</span>
+                    <h2 class="section-title">Tested in Freezing Cold &amp; Alpine Silence</h2>
+                    <p class="section-desc">Experiences from thru-hikers, mountaineers, and cozy cabin lovers who trust Warm Weave Hill.</p>
+                </div>
+
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"I wore the Summit Expedition socks across a 240-mile winter traverse in the Swiss Alps. Through slush, frozen snowpack, and 12-hour trekking days, my feet stayed completely warm, dry, and blister-free. Unbelievable durability."</p>
+                        <div class="client-meta">
+                            <div class="client-avatar">LS</div>
+                            <div>
+                                <div class="client-name">Lars Sundqvist</div>
+                                <div class="client-role">Alpine Mountaineering Guide &bull; Chamonix</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"The Highland Fireside Bed Socks are pure heavenly magic. Slipping them on after a long snowy walk feels like wrapping your feet in warm clouds. The seamless toe makes all the difference in the world."</p>
+                        <div class="client-meta">
+                            <div class="client-avatar">EM</div>
+                            <div>
+                                <div class="client-name">Freja Lindstrom</div>
+                                <div class="client-role">Architect &amp; Cabin Homesteader &bull; Oslo</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"As someone with sensitive skin who usually finds wool itchy, Warm Weave Hill changed everything. The 18.5 micron Merino feels as smooth as silk, and the botanical madder color is stunning."</p>
+                        <div class="client-meta">
+                            <div class="client-avatar">OH</div>
+                            <div>
+                                <div class="client-name">Oliver Hayes</div>
+                                <div class="client-role">Landscape Photographer &bull; Edinburgh</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Sustainability & Ethical Shearing Manifesto -->
+        <section class="section-padding bg-oatmeal-warm">
+            <div class="container">
+                <div class="showcase-split">
+                    <div class="showcase-img-wrap">
+                        <img src="images/warm-autumn-leaves-wool-socks-walk.jpg" alt="Sustainable wool socks on autumn walking trail">
+                        <div class="showcase-badge">Responsible Wool Standard &bull; Zero Mulesing</div>
+                    </div>
+                    <div class="showcase-content">
+                        <span class="section-tagline">Conscious Flocks &amp; Pure Lands</span>
+                        <h2 class="section-title">Rooted in Kindness to Flocks &amp; Soil</h2>
+                        <p>
+                            At Warm Weave Hill, our relationship with wool begins with profound gratitude toward the animals who grow it. We source 100% of our Merino and alpaca fleeces exclusively from farms certified under the Responsible Wool Standard (RWS), guaranteeing strict animal welfare, pasture regeneration, and a zero-tolerance policy against mulesing.
+                        </p>
+                        <p>
+                            Our circular production ethos produces zero synthetic microplastic shedding. When washed, our socks shed natural biodegradable wool fibrils that harmlessly decompose in soil within three to six months. By investing in honest, durable natural fibers, we help protect the pristine mountain ecosystems we cherish.
+                        </p>
+                        <a href="about.html" class="btn btn-outline">Explore Our Sustainability Charter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Lifetime Guarantee & Hearth Warranty -->
+        <section class="section-padding bg-pine text-center" style="color: var(--color-oatmeal);">
+            <div class="container-narrow">
+                <span class="section-tagline" style="color: var(--color-amber-gold);">The Warmth Covenant</span>
+                <h2 class="section-title" style="color: #ffffff;">The Lifetime Trail &amp; Hearth Guarantee</h2>
+                <p style="font-size: 1.15rem; color: #e5e7eb; margin-bottom: 2.5rem; line-height: 1.8;">
+                    We knit our socks to outlast thousands of mountain trail miles and countless winters by the fire. If your Warm Weave Hill socks ever develop a premature hole, tear, or seam unraveling under normal use, send them back to our alpine mill for complimentary replacement or re-weaving.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">Submit Warranty Inquiries</a>
+                    <a href="about.html" class="btn btn-outline-white">Warranty Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. The Alpine Knit Journal (Editorial Hub Links to blog.html) -->
+        <section class="section-padding bg-white">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">The Alpine Knit Journal</span>
+                    <h2 class="section-title">Dispatches on Woolcraft &amp; Winter Living</h2>
+                    <p class="section-desc">Deep-dive treatises on Merino thermodynamics, hand-linked seamless toe mechanics, natural botanical dye foraging, and cold-weather foot health.</p>
+                </div>
+
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="images/warm-botanical-natural-dyed-yarn.jpg" alt="Botanical dyeing of wool yarn with madder and walnut">
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-tag">Natural Dye Alchemy</span>
+                            <h3 class="blog-title">Botanical Dyeing for Wool: Forest Foraging &amp; Mordant Chemistry</h3>
+                            <p class="blog-excerpt">An exhaustive guide to extracting lightfast earthy hues from madder roots, black walnut husks, and oak galls for non-toxic knitwear dyeing.</p>
+                            <a href="blog.html" class="btn btn-outline" style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.8rem;">Read in Journal &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="images/warm-seamless-toe-knitting-detail.jpg" alt="Hand-linked seamless toe craftsmanship">
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-tag">Hosiery Engineering</span>
+                            <h3 class="blog-title">The Mechanics of the Seamless Toe: Why Machine Ridges Cause Blisters</h3>
+                            <p class="blog-excerpt">Exploring point-to-point dial linking, frictional podiatric shear forces, and why seamless construction is vital for long-distance hiking comfort.</p>
+                            <a href="blog.html" class="btn btn-outline" style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.8rem;">Read in Journal &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="images/warm-hygge-reading-bed-socks.jpg" alt="Hygge winter reading with cozy wool socks">
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-tag">Alpine Living &amp; Hygge</span>
+                            <h3 class="blog-title">Thermoregulation &amp; Sleep Quality: The Science of Bedtime Wool Socks</h3>
+                            <p class="blog-excerpt">How warming peripheral extremities accelerates core body temperature cooling, promoting deeper restorative rapid-eye-movement sleep phases.</p>
+                            <a href="blog.html" class="btn btn-outline" style="align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.8rem;">Read in Journal &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center" style="margin-top: 3.5rem;">
+                    <a href="blog.html" class="btn btn-primary">Browse All Journal Treatises</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. Frequently Asked Questions Accordion -->
+        <section class="section-padding bg-oatmeal-warm" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Common Inquiries</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-desc">Everything you need to know regarding wool care, washing rituals, sizing calibrations, and our lifetime guarantee.</p>
+                </div>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-header" type="button">
+                            <span>How should I wash and care for my Warm Weave Hill Merino socks?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-body">
+                            <p>Turn socks inside out and machine wash on a gentle wool/cold cycle (30&deg;C / 85&deg;F) using a mild, pH-neutral wool detergent. Lay flat to dry away from direct heat radiators. Because Merino is naturally antibacterial and odor-resistant, you can comfortably wear your socks 2 to 3 times between washes.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header" type="button">
+                            <span>Will Merino wool make my feet itchy or irritated?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-body">
+                            <p>Not at all. Coarse traditional wool fibers measure above 30 microns and cannot bend against the skin, causing prickling sensations. In contrast, our ultra-fine 18.5-micron Merino fibers bend smoothly against sensitive skin, providing a silky, cloud-soft touch with zero itch.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header" type="button">
+                            <span>What makes hand-linked seamless toes superior to standard socks?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-body">
+                            <p>Standard mass-market socks use automated overlock sewing machines that leave a raised, bumpy ridge across the toes. Over long walking distances, this ridge rubs against skin and causes blisters. Hand linking connects loop to loop with a single flat thread, eliminating all friction ridges entirely.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header" type="button">
+                            <span>How do I select the right sock thickness for my hiking boots?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-body">
+                            <p>For fitted leather boots or close-fitting trail runners, our Medium Terry Loop Cushion is ideal. For mountaineering boots or freezing winter conditions where boots have extra volume, our Ultra-Plush Heavy Cushion fills negative space and creates maximum thermal insulation.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-header" type="button">
+                            <span>Do you ship worldwide in plastic-free packaging?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-body">
+                            <p>Yes. All orders are packed in 100% recycled unbleached kraft paper boxes tied with natural jute twine and sealed with water-activated paper tape. We never use single-use plastic poly bags.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15. Alpine Hearth Sock Club & Newsletter -->
+        <section class="section-padding bg-pine" style="color: var(--color-oatmeal);">
+            <div class="container-narrow text-center">
+                <span class="section-tagline" style="color: var(--color-amber-gold);">The Alpine Hearth Society</span>
+                <h2 class="section-title" style="color: #ffffff;">Join Our Seasonal Woolcraft Club</h2>
+                <p style="font-size: 1.1rem; color: #e5e7eb; margin-bottom: 2.5rem;">
+                    Receive private dispatches regarding rare botanical dye yarn releases, seasonal cabin socks allocations, and traditional textile craft guides.
+                </p>
+                
+                <form class="footer-newsletter" style="max-width: 540px; margin: 0 auto;">
+                    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                        <input type="email" placeholder="Enter your email address" required style="flex: 1; min-width: 260px; margin: 0;">
+                        <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Join The Hearth</button>
+                    </div>
+                    <p style="font-size: 0.78rem; color: #cbd5e1; margin-top: 0.75rem;">Pure warmth, zero spam. Unsubscribe at any time.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4>WARM WEAVE <span>&bull;</span> HILL</h4>
+                    <p class="footer-desc">
+                        Alpine knitwear atelier crafting mastercrafted Merino wool thermal socks, cashmere lounge knits, and hand-linked seamless footwear built for lifetimes of warmth.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Knitwear Navigation</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.php">Hearth Home</a></li>
+                        <li><a href="about.html">About Our Mill</a></li>
+                        <li><a href="blog.html">The Alpine Journal</a></li>
+                        <li><a href="contact.html">Trail Concierge</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Legal &amp; Policy</h5>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Mill Outpost &amp; Inquiries</h5>
+                    <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 0.5rem;"><strong>Mill Hours:</strong> Mon &ndash; Fri, 8:00 &ndash; 17:00 CET</p>
+                    <p style="font-size: 0.9rem; color: #cbd5e1; margin-bottom: 0.5rem;"><strong>Email:</strong> hearth@warmweavehill.com</p>
+                    <p style="font-size: 0.9rem; color: #cbd5e1;"><strong>Mill Address:</strong> 14 Alpine Valley Road, Innsbruck, Austria</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; <?php echo date('Y'); ?> WARM WEAVE HILL Knitwear. All Rights Reserved. Mastercrafted with Pride.</div>
+                <div>Ethical Merino Wool &bull; Seamless Hand-Linked Craft</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
